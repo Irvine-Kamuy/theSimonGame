@@ -16,14 +16,14 @@ body {
 .button {
   display: grid;
   gap: 2rem;
-  grid-template: 10rem 10rem 10rem/10rem 10rem;
+  grid-template: 15rem 15rem 10rem/ 15rem 15rem;
   justify-content: center;
 }
 
 .btn {
   border: 1rem solid black;
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
 } 
 
 .green {
