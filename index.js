@@ -78,7 +78,7 @@ function checkAnswer (currentLvl) {
         $("#level-title").text("Game over... Click here to restart.")
         
         $("body").addClass("game-over");
-        setTimeout(function() {$("body").removeClass("game-over");}, 200);
+        setTimeout(function() {$("body").removeClass("game-over");}, 300);
 
         startOver();
     }
