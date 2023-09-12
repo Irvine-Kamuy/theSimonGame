@@ -73,7 +73,7 @@ function checkAnswer (currentLvl) {
             }, 2000);
         }
     } else {
-        playSound("wrong");
+        playSound("What A Shame");
 
         $("#level-title").text("Game over... Click here to restart.")
         
